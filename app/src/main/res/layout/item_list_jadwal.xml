@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:orientation="vertical"
+    android:background="@drawable/border"
+    android:paddingBottom="10dp">
+
+    <TextView
+        android:id="@+id/item_list_jadwal_tv_tanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Minggu, 01 Januari 2021"
+        android:textSize="24dp"
+        android:textColor="@color/grey"
+        android:gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="20dp"
+        android:paddingVertical="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Imsak"
+            android:textSize="18dp"
+            android:textColor="@color/grey"/>
+
+        <TextView
+            android:id="@+id/item_list_jadwal_tv_jam_imsak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:layout_weight="1"
+            android:text="04.00 (WIB)"
+            android:textSize="18dp"
+            android:textColor="@color/grey"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="20dp"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Shubuh"
+            android:textSize="18dp"
+            android:textColor="@color/grey"/>
+
+        <TextView
+            android:id="@+id/item_list_jadwal_tv_jam_shubuh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:layout_weight="1"
+            android:text="04.10 (WIB)"
+            android:textSize="18dp"
+            android:textColor="@color/grey"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="20dp"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Dzuhur"
+            android:textSize="18dp"
+            android:textColor="@color/grey"/>
+
+        <TextView
+            android:id="@+id/item_list_jadwal_tv_jam_dzuhur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:layout_weight="1"
+            android:text="12.00 (WIB)"
+            android:textSize="18dp"
+            android:textColor="@color/grey"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="20dp"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ashar"
+            android:textSize="18dp"
+            android:textColor="@color/grey"/>
+
+        <TextView
+            android:id="@+id/item_list_jadwal_tv_jam_ashar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:layout_weight="1"
+            android:text="15.00 (WIB)"
+            android:textSize="18dp"
+            android:textColor="@color/grey"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="20dp"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Maghrib"
+            android:textSize="18dp"
+            android:textColor="@color/grey"/>
+
+        <TextView
+            android:id="@+id/item_list_jadwal_tv_jam_maghrib"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:layout_weight="1"
+            android:text="18.00 (WIB)"
+            android:textSize="18dp"
+            android:textColor="@color/grey"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="20dp"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Isya"
+            android:textSize="18dp"
+            android:textColor="@color/grey"/>
+
+        <TextView
+            android:id="@+id/item_list_jadwal_tv_jam_isya"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:layout_weight="1"
+            android:text="19.00 (WIB)"
+            android:textSize="18dp"
+            android:textColor="@color/grey"/>
+    </LinearLayout>
+
+</LinearLayout>
